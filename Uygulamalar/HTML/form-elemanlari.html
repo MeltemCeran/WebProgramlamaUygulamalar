@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form>
+        <fieldset style="width: 35%;">
+            <legend>FORM</legend>
+            <table>
+                <tr>
+                    <td>
+                        <label for="txtAd">Kullanıcı Adı:</label>
+                    </td>
+                    <td>
+                         <input placeholder="Adınız:" id="txtAd" type="text" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="txtSifre">Şifre:</label>
+                    </td>
+                    <td>
+                        <input placeholder="Şifre" id="txtSifre" type="password" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="txtSifreTekrar">Şifre Tekrar:</label>
+                    </td>
+                    <td>
+                        <input placeholder="Şifre Tekrar" id="txtSifreTekrar" type="password" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="cbHatirla">Beni Hatırla!</label>
+                    </td>
+                    <td>
+                        <input id="cbHatirla" type="checkbox" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>Durum:</label>
+                    </td>
+                    <td colspan="2">
+                        <label for="rdBurs">Burslu</label>
+                        <input name="rdDurum" id="rdBurs" type="radio" />
+                        <label for="rdUcretli">Ücretli</label>
+                        <input name="rdDurum" id="rdUcretli" type="radio" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>Seçim Yapınız :</label>
+                    </td>
+                    <td>
+                    <select id="cmBoxId">
+                        <option>Seçiniz:</option>
+                        <option>Devlet</option>
+                        <option>Vakıf</option>
+                        <option selected>Kek</option>
+                    </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>Eklemek istedikleriniz:</p>
+                    </td>
+                    <td>
+                        <textarea placeholder="Ne söylemek istersiniz?" rows="10" cols="35"> </textarea>
+                    </td>
+                </tr>
+            </table>
+      <!--input type default olarak textbox gelir ama istersek değiştiririz-->
+    </form>
+        </fieldset>
+      
+  </body>
+</html>
